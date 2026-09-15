@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.opentelemetry.io/collector/pdata/ptrace/ptraceotlp"
 
-	"github.com/odurgut/rasat/internal/ingest"
+	"github.com/durguto/rasat/internal/ingest"
 )
 
 func TestNextTraceIsNowNotHistorical(t *testing.T) {

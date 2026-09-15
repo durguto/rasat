@@ -7,7 +7,7 @@ import (
 
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/odurgut/rasat/internal/ingest"
+	"github.com/durguto/rasat/internal/ingest"
 )
 
 func TestTracesCoversTheProduct(t *testing.T) {

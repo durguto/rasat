@@ -7,13 +7,13 @@ description: Notable changes in each Rasat release.
 
 Versions are git tags `vMAJOR.MINOR.PATCH`. The running process reports the tag on [`GET /version`](api.md) and in the UI rail. While major is 0, a **minor** tag may break env vars, the query HTTP API, OTLP paths, or the image contract; those breaks are listed on the release that introduces them. How tags relate to `main` and Docker Hub: [CONTRIBUTING.md](../CONTRIBUTING.md).
 
-Pull `odurgut/rasat:<version>` from [Docker Hub](https://hub.docker.com/r/odurgut/rasat). Each tag also updates `odurgut/rasat:<major>.<minor>` and `latest`.
+Pull `durguto/rasat:<version>` from [Docker Hub](https://hub.docker.com/r/durguto/rasat). Each tag also updates `durguto/rasat:<major>.<minor>` and `latest`.
 
 ## Unreleased
 
 ## 0.1.2 — 2026-09-10
 
-Patch. Image: `odurgut/rasat:0.1.2`.
+Patch. Image: `durguto/rasat:0.1.2`.
 
 ### Added
 
@@ -31,7 +31,7 @@ Patch. Image: `odurgut/rasat:0.1.2`.
 
 ## 0.1.1 — 2026-09-03
 
-Patch. Image: `odurgut/rasat:0.1.1`.
+Patch. Image: `durguto/rasat:0.1.1`.
 
 ### Fixed
 
@@ -44,7 +44,7 @@ Patch. Image: `odurgut/rasat:0.1.1`.
 
 ## 0.1.0 — 2026-09-02
 
-First public release. Image: `odurgut/rasat:0.1.0`.
+First public release. Image: `durguto/rasat:0.1.0`.
 
 ### Added
 

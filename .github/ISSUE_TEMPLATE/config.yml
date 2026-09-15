@@ -4,5 +4,5 @@ contact_links:
     url: https://rasat.dev
     about: How to run Rasat, send OTLP, and what this version does
   - name: Security report
-    url: https://github.com/odurgut/rasat/security/advisories/new
+    url: https://github.com/durguto/rasat/security/advisories/new
     about: Report a vulnerability privately. Do not file a public issue.

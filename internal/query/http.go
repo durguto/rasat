@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 // Searcher lists traces, logs, services, operations, the service map, derived metrics, and error causes. The ClickHouse implementation lives in store; tests inject stubs.

@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/odurgut/rasat/internal/config"
-	"github.com/odurgut/rasat/internal/httpapi"
-	"github.com/odurgut/rasat/internal/ingest"
-	"github.com/odurgut/rasat/internal/store"
-	"github.com/odurgut/rasat/internal/stream"
+	"github.com/durguto/rasat/internal/config"
+	"github.com/durguto/rasat/internal/httpapi"
+	"github.com/durguto/rasat/internal/ingest"
+	"github.com/durguto/rasat/internal/store"
+	"github.com/durguto/rasat/internal/stream"
 )
 
 // Fn is one unit Init or Close step.

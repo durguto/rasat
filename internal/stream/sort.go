@@ -3,7 +3,7 @@ package stream
 import (
 	"sort"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 func sortByTimestampAsc(rows []store.TraceListRow) {

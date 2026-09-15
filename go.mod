@@ -1,4 +1,4 @@
-module github.com/odurgut/rasat
+module github.com/durguto/rasat
 
 go 1.24.0
 

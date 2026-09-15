@@ -23,7 +23,7 @@ ARG TARGETOS=linux
 ARG TARGETARCH
 RUN CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build \
   -trimpath \
-  -ldflags="-s -w -X github.com/odurgut/rasat/internal/version.Version=${VERSION} -X github.com/odurgut/rasat/internal/version.Commit=${COMMIT}" \
+  -ldflags="-s -w -X github.com/durguto/rasat/internal/version.Version=${VERSION} -X github.com/durguto/rasat/internal/version.Commit=${COMMIT}" \
   -o /out/rasat ./cmd/rasat
 
 FROM gcr.io/distroless/static-debian12:nonroot
@@ -34,7 +34,7 @@ LABEL org.opencontainers.image.title="Rasat" \
   org.opencontainers.image.description="Self-hosted observability for OpenTelemetry traces, logs, and a service map" \
   org.opencontainers.image.url="https://rasat.dev" \
   org.opencontainers.image.documentation="https://rasat.dev/docs/getting-started" \
-  org.opencontainers.image.source="https://github.com/odurgut/rasat" \
+  org.opencontainers.image.source="https://github.com/durguto/rasat" \
   org.opencontainers.image.licenses="Apache-2.0" \
-  org.opencontainers.image.vendor="odurgut"
+  org.opencontainers.image.vendor="durguto"
 ENTRYPOINT ["/rasat"]

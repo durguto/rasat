@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/odurgut/rasat/main/docs/images/logo.svg" width="150" height="65" style="width:150px;height:65px" alt="Rasat">
+  <img src="https://raw.githubusercontent.com/durguto/rasat/main/docs/images/logo.svg" width="150" height="65" style="width:150px;height:65px" alt="Rasat">
 </p>
 
 # Rasat
 
 Self-hosted observability for **OpenTelemetry traces**, structured **logs**, and a **service map**. One process serves the UI, ingest, and query. **Your ClickHouse** stores the data.
 
-**Website:** [https://rasat.dev](https://rasat.dev) · **Demo:** [https://demo.rasat.dev](https://demo.rasat.dev) · **Docs:** [getting started](https://rasat.dev/docs/getting-started) · **Source:** [github.com/odurgut/rasat](https://github.com/odurgut/rasat)
+**Website:** [https://rasat.dev](https://rasat.dev) · **Demo:** [https://demo.rasat.dev](https://demo.rasat.dev) · **Docs:** [getting started](https://rasat.dev/docs/getting-started) · **Source:** [github.com/durguto/rasat](https://github.com/durguto/rasat)
 
 This image is **linux/amd64** and **linux/arm64**, distroless, non-root. It does **not** include ClickHouse, `rasat-seed`, or `rasat-bench`.
 
@@ -23,7 +23,7 @@ docker run -d --name rasat \
   -e RASAT_CLICKHOUSE_DATABASE=rasat \
   -e RASAT_CLICKHOUSE_USER=rasat \
   -e RASAT_CLICKHOUSE_PASSWORD=rasat \
-  odurgut/rasat:0.1.2
+  durguto/rasat:0.1.2
 ```
 
 On Linux, add `--add-host=host.docker.internal:host-gateway` if ClickHouse is on the host. Wait until `http://localhost:8080/ready` returns **200**. UI: `http://localhost:8080`.
@@ -73,4 +73,4 @@ No Rasat agent. [Send data](https://rasat.dev/docs/send-data).
 
 ## License
 
-[Apache License 2.0](https://github.com/odurgut/rasat/blob/main/LICENSE).
+[Apache License 2.0](https://github.com/durguto/rasat/blob/main/LICENSE).

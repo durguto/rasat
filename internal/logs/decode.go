@@ -10,7 +10,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 const (

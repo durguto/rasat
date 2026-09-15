@@ -15,7 +15,7 @@ import (
 
 	"go.opentelemetry.io/collector/pdata/ptrace/ptraceotlp"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 type captureWriter struct {

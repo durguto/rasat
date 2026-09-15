@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 func testHub(t *testing.T, cfg HubConfig) *Hub[store.TraceListRow] {

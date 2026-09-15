@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 func TestSummarizeBatchEmpty(t *testing.T) {

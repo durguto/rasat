@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/odurgut/rasat/internal/seed"
+	"github.com/durguto/rasat/internal/seed"
 )
 
 func main() {

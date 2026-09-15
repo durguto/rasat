@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/odurgut/rasat/internal/app"
+	"github.com/durguto/rasat/internal/app"
 )
 
 func main() {

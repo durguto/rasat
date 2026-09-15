@@ -5,9 +5,9 @@
 
 # Rasat
 
-[![CI](https://github.com/odurgut/rasat/actions/workflows/ci.yml/badge.svg)](https://github.com/odurgut/rasat/actions/workflows/ci.yml)
-[![Go](https://img.shields.io/github/go-mod/go-version/odurgut/rasat)](go.mod)
-[![Docker](https://img.shields.io/docker/v/odurgut/rasat/latest?label=docker)](https://hub.docker.com/r/odurgut/rasat)
+[![CI](https://github.com/durguto/rasat/actions/workflows/ci.yml/badge.svg)](https://github.com/durguto/rasat/actions/workflows/ci.yml)
+[![Go](https://img.shields.io/github/go-mod/go-version/durguto/rasat)](go.mod)
+[![Docker](https://img.shields.io/docker/v/durguto/rasat/latest?label=docker)](https://hub.docker.com/r/durguto/rasat)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 Self-hosted observability for **OpenTelemetry traces**, structured **logs**, and a **service map**. One process serves the UI, ingest, and query. **Your ClickHouse** stores the data.
@@ -19,7 +19,7 @@ This version has **no login**. Anyone who can reach the HTTP port can query and 
 
 ## Run
 
-The image is [`odurgut/rasat`](https://hub.docker.com/r/odurgut/rasat). Point it at ClickHouse you run (native protocol, port 9000):
+The image is [`durguto/rasat`](https://hub.docker.com/r/durguto/rasat). Point it at ClickHouse you run (native protocol, port 9000):
 
 ```bash
 docker run -d --name rasat \
@@ -28,7 +28,7 @@ docker run -d --name rasat \
   -e RASAT_CLICKHOUSE_DATABASE=rasat \
   -e RASAT_CLICKHOUSE_USER=rasat \
   -e RASAT_CLICKHOUSE_PASSWORD=rasat \
-  odurgut/rasat:0.1.2
+  durguto/rasat:0.1.2
 ```
 
 Open `http://localhost:8080` when `http://localhost:8080/ready` is **200**. OTLP/HTTP is that port; OTLP/gRPC is `localhost:4317`.

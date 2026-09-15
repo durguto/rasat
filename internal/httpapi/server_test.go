@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/odurgut/rasat/internal/config"
-	"github.com/odurgut/rasat/internal/ui"
+	"github.com/durguto/rasat/internal/config"
+	"github.com/durguto/rasat/internal/ui"
 )
 
 var errClickHouseDown = errors.New("clickhouse down")

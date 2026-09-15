@@ -14,7 +14,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/odurgut/rasat/internal/config"
+	"github.com/durguto/rasat/internal/config"
 )
 
 const maxHeaderBytes = 1 << 20

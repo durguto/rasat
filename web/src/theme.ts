@@ -38,7 +38,7 @@ export function systemTheme(): Theme {
 
 export function applyTheme(theme: Theme): void {
   const root = document.documentElement;
-  root.classList.add("theme-odurgut");
+  root.classList.add("theme-durguto");
   root.classList.toggle("dark", theme === "dark");
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta) {

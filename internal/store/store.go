@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/odurgut/rasat/internal/config"
+	"github.com/durguto/rasat/internal/config"
 )
 
 // ErrNotReady is returned when ClickHouse does not answer a ping in time.

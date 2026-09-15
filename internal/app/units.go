@@ -8,16 +8,16 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/odurgut/rasat/internal/config"
-	"github.com/odurgut/rasat/internal/httpapi"
-	"github.com/odurgut/rasat/internal/ingest"
-	"github.com/odurgut/rasat/internal/logging"
-	"github.com/odurgut/rasat/internal/logs"
-	"github.com/odurgut/rasat/internal/query"
-	"github.com/odurgut/rasat/internal/store"
-	"github.com/odurgut/rasat/internal/stream"
-	"github.com/odurgut/rasat/internal/ui"
-	"github.com/odurgut/rasat/internal/version"
+	"github.com/durguto/rasat/internal/config"
+	"github.com/durguto/rasat/internal/httpapi"
+	"github.com/durguto/rasat/internal/ingest"
+	"github.com/durguto/rasat/internal/logging"
+	"github.com/durguto/rasat/internal/logs"
+	"github.com/durguto/rasat/internal/query"
+	"github.com/durguto/rasat/internal/store"
+	"github.com/durguto/rasat/internal/stream"
+	"github.com/durguto/rasat/internal/ui"
+	"github.com/durguto/rasat/internal/version"
 )
 
 // Named units for cmd/rasat. Same App, reverse CloseFn.

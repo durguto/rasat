@@ -15,9 +15,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/odurgut/rasat/internal/httpapi"
-	"github.com/odurgut/rasat/internal/query"
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/httpapi"
+	"github.com/durguto/rasat/internal/query"
+	"github.com/durguto/rasat/internal/store"
 )
 
 const fallbackShutdown = 15 * time.Second

@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/odurgut/rasat/internal/bench"
-	"github.com/odurgut/rasat/internal/seed"
+	"github.com/durguto/rasat/internal/bench"
+	"github.com/durguto/rasat/internal/seed"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package stream
 import (
 	"time"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 // SummarizeBatch builds list-shaped events from an in-memory ingest batch.

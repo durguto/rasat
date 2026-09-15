@@ -60,7 +60,7 @@ appointed representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the maintainer via GitHub:
-[github.com/odurgut](https://github.com/odurgut).
+[github.com/durguto](https://github.com/durguto).
 
 All complaints will be reviewed and investigated promptly and fairly.
 

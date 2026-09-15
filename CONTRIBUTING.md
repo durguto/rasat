@@ -55,7 +55,7 @@ Rules:
 
 To run this tree locally: `make compose-build` (image from the checkout + ClickHouse). `make compose-down` stops containers and **keeps** the ClickHouse volume. `make compose-build` again is the same data. You do not need `down` between rebuilds; `compose-build` recreates Rasat and leaves ClickHouse on the volume.
 
-`make compose-up` pulls Hub `odurgut/rasat`. It does not build your branch. `make compose-reset` is `down -v`: the volume is gone.
+`make compose-up` pulls Hub `durguto/rasat`. It does not build your branch. `make compose-reset` is `down -v`: the volume is gone.
 
 ## Pipeline
 
@@ -81,17 +81,17 @@ git tag v0.1.2
 git push origin v0.1.2
 ```
 
-That tag builds `odurgut/rasat:0.1.2`, `:0.1`, and `:latest` (`linux/amd64`, `linux/arm64`) and opens the GitHub Release. The same tag dispatches [odurgut/rasat-demo](https://github.com/odurgut/rasat-demo) so the hosted cassette matches the image. A failed Worker must not fail Hub.
+That tag builds `durguto/rasat:0.1.2`, `:0.1`, and `:latest` (`linux/amd64`, `linux/arm64`) and opens the GitHub Release. The same tag dispatches [durguto/rasat-demo](https://github.com/durguto/rasat-demo) so the hosted cassette matches the image. A failed Worker must not fail Hub.
 
 In the same PR that you are about to tag (or immediately after):
 
 1. Move **Unreleased** items under `## 0.1.2 — YYYY-MM-DD` (tag without the `v`, date of the tag in UTC). Group as **Added**, **Changed**, **Fixed**, or **Removed**. Omit empty groups. Write for operators: what they see or must do, not internals.
 2. Leave `## Unreleased` at the top with no bullets.
-3. Pin install snippets and Hub examples to the new patch when you intend people to pull it (`odurgut/rasat:0.1.2`).
+3. Pin install snippets and Hub examples to the new patch when you intend people to pull it (`durguto/rasat:0.1.2`).
 
 Hub credentials are the GitHub Environment **`DOCKERHUB`**. Overview updates need a Hub PAT with **Read, Write, and Delete**. Image push is not enough.
 
-Demo dispatch uses repo secret **`DEMO_DISPATCH_TOKEN`**: a fine-grained PAT, repository access **only** `odurgut/rasat-demo` (not this repo), permission **Actions: Read and write**. If it is missing or 403s, Hub still ships.
+Demo dispatch uses repo secret **`DEMO_DISPATCH_TOKEN`**: a fine-grained PAT, repository access **only** `durguto/rasat-demo` (not this repo), permission **Actions: Read and write**. If it is missing or 403s, Hub still ships.
 
 ## Code
 

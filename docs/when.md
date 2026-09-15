@@ -21,7 +21,7 @@ None of this is a claim that Rasat replaces those products. It is a smaller scop
 
 ## Docker
 
-Yes. Image [`odurgut/rasat`](https://hub.docker.com/r/odurgut/rasat). You still run **ClickHouse** (native 9000). Commands: [Getting started](getting-started.md).
+Yes. Image [`durguto/rasat`](https://hub.docker.com/r/durguto/rasat). You still run **ClickHouse** (native 9000). Commands: [Getting started](getting-started.md).
 
 ## Kubernetes
 

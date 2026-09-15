@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 const contentJSON = "application/json"

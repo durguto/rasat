@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 // ErrTooManyClients is returned when Subscribe would exceed MaxClients.

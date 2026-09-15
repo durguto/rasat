@@ -4,7 +4,7 @@ import (
 	"context"
 	"sort"
 
-	"github.com/odurgut/rasat/internal/store"
+	"github.com/durguto/rasat/internal/store"
 )
 
 // AfterWrite publishes summaries after a successful persist.

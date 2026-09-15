@@ -18,7 +18,7 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger odurgut/rasat-demo
+      - name: Trigger durguto/rasat-demo
         env:
           GH_TOKEN: ${{ secrets.DEMO_DISPATCH_TOKEN }}
           TAG: ${{ inputs.tag }}
@@ -31,4 +31,4 @@ jobs:
             echo "DEMO_DISPATCH_TOKEN unset" >&2
             exit 1
           fi
-          gh workflow run deploy --repo odurgut/rasat-demo --ref main -f "tag=${TAG}"
+          gh workflow run deploy --repo durguto/rasat-demo --ref main -f "tag=${TAG}"

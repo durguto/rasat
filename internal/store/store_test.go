@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/odurgut/rasat/internal/config"
+	"github.com/durguto/rasat/internal/config"
 )
 
 type fakeConn struct {

@@ -1,6 +1,6 @@
 # Rasat — build and run. Product docs: docs/.
 
-MODULE := github.com/odurgut/rasat
+MODULE := github.com/durguto/rasat
 VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo dev)
 COMMIT ?= $(shell git rev-parse --short HEAD 2>/dev/null || echo none)
 LDFLAGS := -s -w -X $(MODULE)/internal/version.Version=$(VERSION) -X $(MODULE)/internal/version.Commit=$(COMMIT)

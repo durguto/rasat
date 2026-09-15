@@ -36,7 +36,7 @@ Versions: [Compatibility](compatibility.md). Disk, TTL, backups, and HA are Clic
 
 ## Run Rasat
 
-Image [`odurgut/rasat`](https://hub.docker.com/r/odurgut/rasat) or a binary from `make build`. Distroless, non-root. Configuration is **environment only** — [Configuration](configuration.md). Defaults are `127.0.0.1:9000`, user `default`, empty password; set `RASAT_CLICKHOUSE_*` to match **your** server.
+Image [`durguto/rasat`](https://hub.docker.com/r/durguto/rasat) or a binary from `make build`. Distroless, non-root. Configuration is **environment only** — [Configuration](configuration.md). Defaults are `127.0.0.1:9000`, user `default`, empty password; set `RASAT_CLICKHOUSE_*` to match **your** server.
 
 ```bash
 docker run -d --name rasat \
@@ -45,7 +45,7 @@ docker run -d --name rasat \
   -e RASAT_CLICKHOUSE_DATABASE=rasat \
   -e RASAT_CLICKHOUSE_USER=rasat \
   -e RASAT_CLICKHOUSE_PASSWORD=rasat \
-  odurgut/rasat:0.1.2
+  durguto/rasat:0.1.2
 ```
 
 Same variables in systemd, Kubernetes, or a shell. This version has **no authentication**; anyone who can reach port 8080 can query and ingest. Bind it to a network you trust.

@@ -3,7 +3,7 @@ package httpapi
 import (
 	"net/http"
 
-	"github.com/odurgut/rasat/internal/version"
+	"github.com/durguto/rasat/internal/version"
 )
 
 type healthResponse struct {
