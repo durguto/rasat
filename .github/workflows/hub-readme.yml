@@ -1,4 +1,4 @@
-# Push the Hub Overview (short description + this markdown) on main.
+# Push the Hub Overview (short description + this markdown) and categories on main.
 # Image builds still happen only on version tags (release.yml).
 
 name: hub-readme

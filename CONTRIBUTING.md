@@ -89,7 +89,7 @@ In the same PR that you are about to tag (or immediately after):
 2. Leave `## Unreleased` at the top with no bullets.
 3. Pin install snippets and Hub examples to the new patch when you intend people to pull it (`durguto/rasat:0.1.3`).
 
-Hub credentials are the GitHub Environment **`DOCKERHUB`**. Overview updates need a Hub PAT with **Read, Write, and Delete**. Image push is not enough.
+Hub credentials are the GitHub Environment **`DOCKERHUB`**. Overview and categories updates need a Hub PAT with **Read, Write, and Delete**. Image push is not enough.
 
 Demo dispatch uses repo secret **`DEMO_DISPATCH_TOKEN`**: a fine-grained PAT, repository access **only** `durguto/rasat-demo` (not this repo), permission **Actions: Read and write**. If it is missing or 403s, Hub still ships.
 
