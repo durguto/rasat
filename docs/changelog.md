@@ -11,6 +11,14 @@ Pull `durguto/rasat:<version>` from [Docker Hub](https://hub.docker.com/r/durgut
 
 ## Unreleased
 
+## 0.1.3 — 2026-09-15
+
+Patch. Image: `durguto/rasat:0.1.3`.
+
+### Changed
+
+- GitHub and Docker Hub are `durguto/rasat`. Pull that namespace; `odurgut/rasat` is gone.
+
 ## 0.1.2 — 2026-09-10
 
 Patch. Image: `durguto/rasat:0.1.2`.

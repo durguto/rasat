@@ -8,7 +8,7 @@ This project has one maintainer. There is no dedicated security team and no prom
 
 ## What to include
 
-- Rasat version (`GET /version` or the image tag, e.g. `durguto/rasat:0.1.2`)
+- Rasat version (`GET /version` or the image tag, e.g. `durguto/rasat:0.1.3`)
 - How you run it (image, binary, Compose)
 - Steps to reproduce
 - Impact: who can trigger it, and what they get
